@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3桁数字当てゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>3桁数字当てゲーム</h1>
+        <p>0-9の数字を使った3桁の数字を当ててください</p>
+        <div class="input-area">
+            <input type="text" id="guess-input" maxlength="3" placeholder="123">
+            <button id="submit-btn">チェック</button>
+        </div>
+        <div id="result-area"></div>
+        <div id="attempts">試行回数: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
