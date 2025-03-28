@@ -67,3 +67,19 @@ h1 {
         flex-direction: column;
     }
 }
+
+/* 広告コンテナスタイル */
+.ad-container {
+    width: 100%;
+    max-width: 728px;
+    margin: 0 auto 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .ad-container {
+        padding: 5px;
+    }
+}
